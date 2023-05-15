@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+
+struct Weather : Codable, Hashable{
+    let temp : Double
+    let humidity : Double
+}
